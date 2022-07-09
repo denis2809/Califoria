@@ -1,3 +1,7 @@
+.container {
+  max-width: 1300px;
+}
+
 .navbar-collapse {
   flex-grow: inherit;
 }
@@ -36,4 +40,106 @@ header nav .nav-link {
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
+}
+
+.main-banner .container .main-wrap {
+  background-color: #DCE5E2;
+  border-radius: 33px;
+}
+.main-banner .container .main-wrap article {
+  max-width: 560px;
+  position: relative;
+  top: 145px;
+  left: 56px;
+}
+@media screen and (max-width: 992px) {
+  .main-banner .container .main-wrap article {
+    max: width 420px;
+    top: 80px;
+    left: 30px;
+    max-width: 450px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .main-banner .container .main-wrap article {
+    top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-banner .container .main-wrap article {
+    max-width: 400px;
+    top: 30px;
+    left: 30px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .main-banner .container .main-wrap article {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main-banner .container .main-wrap article {
+    max-width: 250px;
+  }
+}
+.main-banner .container .main-wrap h1 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 992px) {
+  .main-banner .container .main-wrap h1 {
+    line-height: 60px;
+    margin-bottom: 4px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-banner .container .main-wrap h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .main-banner .container .main-wrap h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+}
+.main-banner .container .main-wrap p {
+  font-family: "Inter" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 764px) {
+  .main-banner .container .main-wrap p {
+    font-size: 14px;
+  }
+}
+.main-banner .container .main-wrap a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 14px 53px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  display: inline-block;
+}
+.main-banner .container .main-wrap .img {
+  max-width: 426px;
+  margin-top: 44px;
+}
+.main-banner .container .main-wrap .img img {
+  display: block;
+  width: 100%;
 }
