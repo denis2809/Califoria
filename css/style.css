@@ -1,0 +1,39 @@
+.navbar-collapse {
+  flex-grow: inherit;
+}
+
+ul {
+  margin: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+header {
+  padding: 22px 0;
+}
+header nav ul .header-icon:first-of-type {
+  margin-right: 29px;
+}
+header nav .nav-item:nth-child(1) {
+  margin-right: 18px;
+}
+header nav .nav-item:nth-child(2) {
+  margin-right: 19px;
+}
+header nav .nav-item:nth-child(3) {
+  margin-right: 29px;
+}
+header nav .nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
