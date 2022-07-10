@@ -1,0 +1,42 @@
+.ideas {
+	padding-bottom: 72px;
+
+	.offer-h2 {
+		margin-bottom: 56px;
+	}
+
+	.container {
+		.row {
+			.img {
+				max-width: 620px;
+
+				@media screen and (max-width: 1200px) {
+					margin-bottom: 30px;
+				}
+			}
+
+			p {
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 30px;
+				color: $primary;
+				margin-bottom: 23px;
+
+				@media screen and (max-width: 768px) {
+					font-size: 16px;
+					line-height: 24px;
+					margin-bottom: 8px;
+				}
+			}
+
+			.text {
+				padding-top: 14px;
+				@media screen and (max-width: 768px){
+					padding: 0;
+				}
+			}
+		}
+	}
+}
