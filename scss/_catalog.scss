@@ -1,0 +1,52 @@
+.catalog {
+	padding: 72px 0;
+
+	.offer-h2{
+		margin-bottom: 60px;
+	}
+
+	.img {
+		max-width: 247px;
+		padding-left: 48px;
+		margin-bottom: 33px;
+		@media screen and (max-width: 1200px){
+			margin-bottom: 16px;
+		}
+	}
+
+	.card {
+		@media screen and (max-width: 1200px){
+			margin-bottom: 40px;
+		}
+		.card-body {
+			h5 {
+				font-family: 'Readex Pro', sans-serif;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 22px;
+				line-height: 28px;
+				color: $primary;
+			}
+
+			p {
+				&:first-of-type {
+					font-family: 'Inter', sans-serif;
+					font-style: normal;
+					font-weight: 400;
+					font-size: 14px;
+					line-height: 17px;
+					color: #4B4B4B;
+				}
+
+				&:last-of-type {
+					font-family: 'Inter';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 18px;
+					line-height: 22px;
+					color: $primary;
+				}
+			}
+		}
+	}
+}

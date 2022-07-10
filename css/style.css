@@ -2,6 +2,10 @@
   max-width: 1300px;
 }
 
+a:hover {
+  outline: 0;
+}
+
 .navbar-collapse {
   flex-grow: inherit;
 }
@@ -74,7 +78,7 @@ header nav .nav-link {
 }
 @media screen and (max-width: 428px) {
   .main-banner .container .main-wrap article {
-    max-width: 300px;
+    max-width: 280px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -117,6 +121,11 @@ header nav .nav-link {
   color: #000000;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 798px) {
+  .main-banner .container .main-wrap p {
+    margin-bottom: 15px;
+  }
+}
 @media screen and (max-width: 764px) {
   .main-banner .container .main-wrap p {
     font-size: 14px;
@@ -142,4 +151,122 @@ header nav .nav-link {
 .main-banner .container .main-wrap .img img {
   display: block;
   width: 100%;
+}
+
+.offer {
+  padding: 72px 0;
+}
+.offer .offer-h2 {
+  padding: 0 15px;
+}
+.offer .offer-h2 h2 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+}
+@media screen and (max-width: 458px) {
+  .offer .offer-h2 h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+.offer .offer-h2 p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 55px;
+}
+@media screen and (max-width: 615px) {
+  .offer .offer-h2 p br {
+    display: none;
+  }
+}
+.offer .container .row .ipad {
+  padding: 80px 0;
+}
+.offer .container .row .two-ph {
+  padding: 143px 0;
+}
+.offer .container .row .card .img-mac-book {
+  max-width: 500px;
+}
+.offer .container .row .card .img-apple-w {
+  max-width: 380px;
+}
+.offer .container .row .card .img-two-ph {
+  max-width: 312px;
+}
+.offer .container .row .card .card-body p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+  padding-right: 42px;
+}
+.offer .container .row .card .card-body h5 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  padding-right: 42px;
+}
+.offer .container .row .col-md-6 .card-apple-w {
+  padding: 0;
+  padding-top: 70px;
+}
+
+.catalog {
+  padding: 72px 0;
+}
+.catalog .offer-h2 {
+  margin-bottom: 60px;
+}
+.catalog .img {
+  max-width: 247px;
+  padding-left: 48px;
+  margin-bottom: 33px;
+}
+@media screen and (max-width: 1200px) {
+  .catalog .img {
+    margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .catalog .card {
+    margin-bottom: 40px;
+  }
+}
+.catalog .card .card-body h5 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+.catalog .card .card-body p:first-of-type {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+}
+.catalog .card .card-body p:last-of-type {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
 }

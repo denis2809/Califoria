@@ -33,7 +33,7 @@
 				}
 
 				@media screen and (max-width: 428px) {
-					max-width: 300px;
+					max-width: 280px;
 				}
 
 				@media screen and (max-width: 320px) {
@@ -76,6 +76,10 @@
 				line-height: 19px;
 				color: $primary;
 				margin-bottom: 30px;
+
+				@media screen and (max-width: 798px) {
+					margin-bottom: 15px;
+				}
 
 				@media screen and (max-width: 764px) {
 					font-size: 14px;
