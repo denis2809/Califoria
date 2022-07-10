@@ -226,7 +226,7 @@ header nav .nav-link {
 }
 
 .catalog {
-  padding: 72px 0;
+  padding-top: 72px;
 }
 .catalog .offer-h2 {
   margin-bottom: 60px;
@@ -290,5 +290,60 @@ header nav .nav-link {
 @media screen and (max-width: 768px) {
   .catalog .card .card-body p:last-of-type {
     text-align: center;
+  }
+}
+
+.sentence {
+  padding: 72px 0;
+}
+.sentence .offer-h2 {
+  margin-bottom: 56px;
+}
+.sentence .container .row .img {
+  max-width: 259px;
+}
+.sentence .container .row .card {
+  padding: 40px 77px 0 77px;
+  background: #F8F9FA;
+  border-radius: 16px;
+}
+.sentence .container .row .card .card-body p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+}
+.sentence .container .row .card .card-body h5 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .sentence .container .row .card .card-body h5 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+.sentence .container .row .card .card-body a {
+  padding: 14px 63px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  border-radius: 200px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .sentence .container .row .card .card-body a {
+    padding: 10px 30px;
   }
 }

@@ -1,0 +1,62 @@
+.sentence {
+	padding: 72px 0;
+
+	.offer-h2 {
+		margin-bottom: 56px;
+	}
+
+	.container {
+		.row {
+			.img {
+				max-width: 259px;
+			}
+
+			.card {
+				padding: 40px 77px 0 77px;
+				background: #F8F9FA;
+				border-radius: 16px;
+
+				.card-body {
+					p {
+						font-family: 'Readex Pro';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 13px;
+						line-height: 17px;
+						color: $primary;
+					}
+
+					h5 {
+						font-family: 'Readex Pro';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 28px;
+						line-height: 35px;
+						color: $primary;
+						margin-bottom: 30px;
+						@media screen and (max-width: 768px){
+							font-size: 24px;
+							line-height: 24px;
+						}
+					}
+
+					a {
+						padding: 14px 63px;
+						font-family: 'Inter';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 18px;
+						line-height: 22px;
+						text-transform: capitalize;
+						border-radius: 200px;
+						margin-bottom: 30px;
+						display: inline-block;
+						@media screen and (max-width: 768px){
+							padding: 10px 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
