@@ -354,6 +354,14 @@ header nav .nav-link {
 .ideas .offer-h2 {
   margin-bottom: 56px;
 }
+.ideas .container {
+  margin-bottom: 74px;
+}
+@media screen and (max-width: 500px) {
+  .ideas .container {
+    margin-bottom: 16px;
+  }
+}
 .ideas .container .row .img {
   max-width: 620px;
 }
@@ -385,4 +393,24 @@ header nav .nav-link {
   .ideas .container .row .text {
     padding: 0;
   }
+}
+.ideas .see-all {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.ideas .see-all::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../images/arrow.svg);
+  width: 30px;
+  height: 28px;
+  position: relative;
+  bottom: -5px;
+  left: 2px;
 }
