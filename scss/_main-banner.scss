@@ -93,7 +93,6 @@
 				font-size: 18px;
 				line-height: 22px;
 				text-transform: capitalize;
-				color: $primary;
 				padding: 14px 53px;
 				border: 1px solid #000000;
 				border-radius: 200px;
@@ -111,4 +110,9 @@
 			}
 		}
 	}
+}
+
+.owl-stage{
+	display: flex;
+	align-items: center;
 }
